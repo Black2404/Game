@@ -6,11 +6,10 @@ public class Reward : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (ScoreManager.instance != null)
-            {
-                ScoreManager.instance.AddScore(1);
-            }
-            else
+            FindObjectOfType<ScoreManager>().AddScore(1);
+            Destroy(gameObject);
+        }
+        else
             {
                 Debug.LogWarning("ScoreManager not found!");
             }
@@ -18,4 +17,3 @@ public class Reward : MonoBehaviour
             Destroy(gameObject); 
         }
     }
-}

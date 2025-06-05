@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\myself\\Game\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|e:\\myself\\game\\demo\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|e:\\myself\\game\\demo\\assets\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\reward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,27 +34,29 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RewardManager.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\RewardManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RewardManager.cs",
               "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\RewardManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\RewardManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T01:54:38.563Z"
+              "WhenOpened": "2025-06-03T01:54:38.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SceneChanger.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\SceneChanger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneChanger.cs",
               "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\SceneChanger.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneChanger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T06:58:03.266Z"
+              "WhenOpened": "2025-05-27T06:58:03.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,34 +66,36 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
               "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwD0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwEcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T06:57:39.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAADwvwwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAuwJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T06:57:02.526Z"
+              "WhenOpened": "2025-05-27T06:57:02.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Reward.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\Reward.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Reward.cs",
               "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\Reward.cs",
               "RelativeToolTip": "Assets\\Scripts\\Reward.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T06:51:14.188Z"
+              "WhenOpened": "2025-05-27T06:51:14.188Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,14 +1,29 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine.SceneManagement;
+using UnityEngine;
 
 public class RewardManager : MonoBehaviour
 {
+    public static RewardManager Instance { get; private set; }
+
     private int totalRewards;
     private int collectedRewards = 0;
 
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            // Uncomment nếu bạn muốn giữ qua nhiều scene
+            // DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     void Start()
     {
-        // Đếm tất cả reward trong scene
         totalRewards = GameObject.FindGameObjectsWithTag("Reward").Length;
         Debug.Log("Total rewards: " + totalRewards);
     }
@@ -17,7 +32,7 @@ public class RewardManager : MonoBehaviour
     {
         collectedRewards++;
         Destroy(reward);
-        Debug.Log("Collected: " + collectedRewards + "/" + totalRewards);
+        Debug.Log($"Collected: {collectedRewards}/{totalRewards}");
 
         if (collectedRewards >= totalRewards)
         {
