@@ -44,13 +44,14 @@ public class RewardManager : MonoBehaviour
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
 
-        if (currentSceneIndex + 1 < SceneManager.sceneCountInBuildSettings)
+        if (currentSceneIndex + 1 < SceneManager.sceneCountInBuildSettings - 1)
         {
-            SceneManager.LoadScene(currentSceneIndex + 1);
+            SceneManager.LoadScene(currentSceneIndex + 1); // sang scene kế tiếp
         }
         else
         {
-            Debug.Log("No more scenes to load.");
+            SceneManager.LoadScene("win"); // scene cuối cùng
         }
     }
+
 }

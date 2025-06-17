@@ -6,14 +6,19 @@ public class Reward : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            FindObjectOfType<ScoreManager>().AddScore(1);
-            Destroy(gameObject);
-        }
-        else
+            ScoreManager scoreManager = FindAnyObjectByType<ScoreManager>();
+
+            if (scoreManager != null)
+            {
+                scoreManager.AddScore(1);
+                Debug.Log("Reward collected → Score increased");
+            }
+            else
             {
                 Debug.LogWarning("ScoreManager not found!");
             }
 
-            Destroy(gameObject); 
+            Destroy(gameObject); // chỉ destroy khi đã kiểm tra đúng
         }
     }
+}
