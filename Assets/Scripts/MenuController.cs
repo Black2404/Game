@@ -3,17 +3,19 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public void PlayAgain()
+    public void Play()
     {
-        ScoreManager.instance?.ResetScore(); // Reset trước
-        SceneManager.LoadScene("scene1");    // Sau đó load lại
+        SceneManager.LoadScene("scene1");
     }
 
-
+    public void PlayAgain()
+    {
+        ScoreManager.instance.ResetScore();
+        SceneManager.LoadScene("scene1");
+    }
 
     public void QuitGame()
     {
-        Debug.Log("Thoát game...");
         Application.Quit();
     }
 }

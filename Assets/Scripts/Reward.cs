@@ -1,24 +1,30 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Reward : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Trigger từ: " + other.name); // ← luôn log để test
+
         if (other.CompareTag("Player"))
         {
-            ScoreManager scoreManager = FindAnyObjectByType<ScoreManager>();
+            Debug.Log("Đã chạm Player");
 
-            if (scoreManager != null)
+            var scoreManager = ScoreManager.instance;
+
+            if (scoreManager == null)
             {
-                scoreManager.AddScore(1);
-                Debug.Log("Reward collected → Score increased");
+                Debug.LogWarning("ScoreManager.instance = null");
             }
             else
             {
-                Debug.LogWarning("ScoreManager not found!");
+                Debug.Log("ScoreManager instance tồn tại");
+                scoreManager.AddScore(1);
+                Debug.Log("Collected reward → score = " + scoreManager.GetScore());
             }
 
-            Destroy(gameObject); // chỉ destroy khi đã kiểm tra đúng
+            Destroy(gameObject);
         }
     }
 }

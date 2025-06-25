@@ -1,57 +1,26 @@
-﻿using UnityEngine.SceneManagement;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class RewardManager : MonoBehaviour
 {
-    public static RewardManager Instance { get; private set; }
-
     private int totalRewards;
-    private int collectedRewards = 0;
-
-    void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            // Uncomment nếu bạn muốn giữ qua nhiều scene
-            // DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    private int collectedRewards;
+    public bool allCollected = false;
 
     void Start()
     {
-        totalRewards = GameObject.FindGameObjectsWithTag("Reward").Length;
-        Debug.Log("Total rewards: " + totalRewards);
+        GameObject[] rewards = GameObject.FindGameObjectsWithTag("Reward");
+        totalRewards = rewards.Length;
+        collectedRewards = 0;
     }
 
     public void CollectReward(GameObject reward)
     {
         collectedRewards++;
-        Destroy(reward);
-        Debug.Log($"Collected: {collectedRewards}/{totalRewards}");
 
         if (collectedRewards >= totalRewards)
         {
-            LoadNextScene();
+            allCollected = true;
+            Debug.Log("Đã ăn hết tất cả vật phẩm!");
         }
     }
-
-    void LoadNextScene()
-    {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-
-        if (currentSceneIndex + 1 < SceneManager.sceneCountInBuildSettings - 1)
-        {
-            SceneManager.LoadScene(currentSceneIndex + 1); // sang scene kế tiếp
-        }
-        else
-        {
-            SceneManager.LoadScene("win"); // scene cuối cùng
-        }
-    }
-
 }

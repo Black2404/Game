@@ -5,88 +5,75 @@ using UnityEngine.SceneManagement;
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
-    public Text scoreText;
+
     private int score = 0;
-    private bool scoreTextInitialized = false;
+    private Text scoreText;
 
     void Awake()
     {
+        // Singleton
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded; // Đăng ký ngay khi tạo
         }
-        else if (instance != this)
+        else
         {
-            Destroy(gameObject); // tránh duplicate nếu quay lại scene
+            Destroy(gameObject);
         }
     }
 
-    void OnEnable()
+    // Đăng ký lại nếu script bị disable/enable
+    void OnEnable() => SceneManager.sceneLoaded += OnSceneLoaded;
+    void OnDisable() => SceneManager.sceneLoaded -= OnSceneLoaded;
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        // Đợi 1 frame để UI kịp tạo
+        Invoke(nameof(FindAndAssignScoreText), 0.1f);
     }
 
-    void OnDisable()
+    private void FindAndAssignScoreText()
     {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        scoreTextInitialized = false; // đánh dấu là cần gán lại text
-    }
-
-    void Update()
-    {
-        // Nếu chưa gán text sau khi chuyển scene thì gán
-        if (!scoreTextInitialized)
+        GameObject go = GameObject.Find("scoreText");
+        if (go != null)
         {
-            GameObject txtObj = GameObject.Find("scoreText");
-            if (txtObj != null)
+            scoreText = go.GetComponent<Text>();
+            if (scoreText != null)
             {
-                scoreText = txtObj.GetComponent<Text>();
-                scoreTextInitialized = true;
-                UpdateScoreUI();
+                scoreText.text = "Score: " + score;
+                Debug.Log("scoreText gán thành công.");
             }
         }
+        else
+        {
+            Debug.LogWarning("Không tìm thấy scoreText trong scene: " + SceneManager.GetActiveScene().name);
+        }
     }
 
-    public void AddScore(int amount)
+    public void AddScore(int value)
     {
-        score += amount;
+        score += value;
+
         if (scoreText == null)
         {
-            GameObject txtObj = GameObject.Find("scoreText");
-            if (txtObj != null)
-            {
-                scoreText = txtObj.GetComponent<Text>();
-            }
+            FindAndAssignScoreText(); // Thử tìm lại nếu mất
         }
 
         if (scoreText != null)
         {
             scoreText.text = "Score: " + score;
         }
-        Debug.Log("Score updated: " + score);
     }
 
-    public int GetScore()
-    {
-        return score;
-    }
-
-    private void UpdateScoreUI()
-    {
-        if (scoreText != null)
-        {
-            scoreText.text = "Score: " + score;
-        }
-    }
     public void ResetScore()
     {
         score = 0;
-        UpdateScoreUI();
+
+        if (scoreText != null)
+            scoreText.text = "Score: 0";
     }
 
+    public int GetScore() => score;
 }
