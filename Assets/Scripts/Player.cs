@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
         }
         else if (col.gameObject.CompareTag("Obstacle"))
         {
-            SceneManager.LoadScene("gameover");
+            GetComponent<PlayerHealth>().TakeDamage(50);
         }
     }
 

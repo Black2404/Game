@@ -11,11 +11,15 @@ public class MenuController : MonoBehaviour
     public void PlayAgain()
     {
         ScoreManager.instance.ResetScore();
-        SceneManager.LoadScene("scene1");
+        SceneManager.LoadScene("Menu");
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }

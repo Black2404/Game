@@ -1,14 +1,20 @@
-﻿using UnityEngine; // Những thư viện Unity cơ bản, chứa các lớp như MonoBehaviour, Transform,...
+﻿using UnityEngine;
 
-// Script dùng để Camera theo dõi đối tượng (ví dụ: Player)
 public class FollowCamera : MonoBehaviour
 {
-    public Transform target; // Đối tượng mà camera sẽ theo dõi (thường là nhân vật người chơi)
-    public Vector3 offset = new Vector3(0, 10 , 0); // Độ lệch của camera so với đối tượng
+    public Transform target;
+    public Vector3 offset = new Vector3(0, 3, -10); // nhìn ngang
 
-    void LateUpdate() // LateUpdate gọi sau Update - đảm bảo camera cập nhật sau khi player di chuyển
+    void LateUpdate()
     {
-        transform.position = target.position + offset; // Đặt vị trí camera tại vị trí target cộng thêm offset
-        transform.LookAt(target); // Camera luôn hướng về đối tượng target
+        if (target == null) return;
+
+        transform.position = target.position + offset;
+        transform.LookAt(target);
+    }
+
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
     }
 }

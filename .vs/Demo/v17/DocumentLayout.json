@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "E:\\myself\\Game\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\selectorcharactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectorcharactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|e:\\myself\\game\\demo\\assets\\scripts\\backgroundmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|e:\\myself\\game\\demo\\assets\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|e:\\myself\\game\\demo\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\playhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|E:\\myself\\Game\\Demo\\assets\\scripts\\musicuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,24 +58,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BackgroundMusic.cs",
-              "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\BackgroundMusic.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundMusic.cs",
-              "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\BackgroundMusic.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BackgroundMusic.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Title": "PlayerSpawner.cs",
+              "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\PlayerSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T14:22:56.131Z",
+              "WhenOpened": "2025-06-30T13:20:48.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SelectorCharactor.cs",
+              "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\SelectorCharactor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectorCharactor.cs",
+              "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\SelectorCharactor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SelectorCharactor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T12:45:10.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Fan.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\Fan.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fan.cs",
@@ -75,16 +99,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAswFsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T06:57:02.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T06:57:02.526Z"
             },
             {
               "$type": "Document",
@@ -94,13 +117,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\FollowCamera.cs",
               "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\FollowCamera.cs",
               "RelativeToolTip": "Assets\\Scripts\\FollowCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T05:12:52.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "MusicUIHandler.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\MusicUIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MusicUIHandler.cs",
@@ -112,20 +135,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MenuController.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\MenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuController.cs",
               "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\MenuController.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuController.cs",
-              "ViewState": "AgIAAAEAAABgqiyQPjUqwA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T14:43:30.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T14:43:30.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "RewardManager.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\RewardManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RewardManager.cs",
@@ -133,25 +155,49 @@
               "RelativeToolTip": "Assets\\Scripts\\RewardManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T01:54:38.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T01:54:38.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
               "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowDIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T06:57:39.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "GameTimer.cs",
+              "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\GameTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameTimer.cs",
+              "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\GameTimer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameTimer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T14:42:00.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayHealth.cs",
+              "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\PlayHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayHealth.cs",
+              "ToolTip": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\PlayHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T14:48:26.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Reward.cs",
               "DocumentMoniker": "E:\\myself\\Game\\Demo\\Assets\\Scripts\\Reward.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Reward.cs",
