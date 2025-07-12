@@ -6,7 +6,7 @@ public class BackgroundMusic : MonoBehaviour
     public static BackgroundMusic Instance;
 
     private AudioSource audioSource;
-    private readonly string[] allowedScenes = { "Main", "scene1", "scene2" };
+    private readonly string[] allowedScenes = { "Main","Menu", "scene1", "scene2" };
 
     private const string MusicEnabledKey = "MusicEnabled";
     private const string MusicVolumeKey = "MusicVolume";

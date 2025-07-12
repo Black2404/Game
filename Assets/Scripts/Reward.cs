@@ -5,7 +5,7 @@ public class Reward : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Trigger từ: " + other.name); // ← luôn log để test
+        Debug.Log("Trigger từ: " + other.name); 
 
         if (other.CompareTag("Player"))
         {

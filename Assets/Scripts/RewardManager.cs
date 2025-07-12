@@ -17,10 +17,20 @@ public class RewardManager : MonoBehaviour
     {
         collectedRewards++;
 
+        //Phát âm thanh khi thu thập
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PlayCollect();
+        }
+
+        // Có thể phá hủy reward ở đây nếu cần
+        Destroy(reward);
+
         if (collectedRewards >= totalRewards)
         {
             allCollected = true;
             Debug.Log("Đã ăn hết tất cả vật phẩm!");
         }
     }
+
 }
